@@ -2,6 +2,7 @@
 
 "authOutDatedVersion":"OKTW2 Auth successful, NEW VERSION AVAILABLE, you can update after game",
 "authSuccessful":"OKTW2 Auth successful",
+"authError":"OKTW2 Auth error, check chat",
 
 "enable":"Enable",
 "config":"Config",

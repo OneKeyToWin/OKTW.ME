@@ -1,6 +1,7 @@
 {
 "authOutDatedVersion":"OKTW2 autoryzacja pomyslna, NOWA WERSJA DOSTEPNA, zaktualizuj po grze",
 "authSuccessful":"OKTW2 autoryzacja pomyslna",
+"authError":"OKTW2 Blad autoryzacji, sprawdz czat",
 
 "enable":"Wlacz",
 "config":"Konfiguracja",
