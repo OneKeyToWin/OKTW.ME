@@ -1,0 +1,19 @@
+﻿{
+"authOutDatedVersion":"OKTW2 Успешная авторизация, ДОСТУПНА НОВАЯ ВЕРСИЯ, обновите после игры",
+"authSuccessful":"OKTW2 Успешная авторизация",
+"authError":"OKTW2 Ошибка авторизации, проверьте чат",
+"enable":"Включено",
+"config":"Конфигурация",
+"harass":"Харас",
+"disable":"Отключено",
+"Laneclear":"Зачистка линии",
+"Jungleclear":"Зачистка джунглей",
+"utilityAndChampion":"Утилити и Чемпион",
+"onlyChampion":"Только чемпион",
+"onlyUtility":"Только утилити",
+"AIOMODE":"AIO MODE",
+"PRESSF5TORELOADMODE":"НАЖМИТЕ F5 ДЛЯ ПЕРЕЗАГРУЗКИ",
+"OKTWorbwalker":"OKTW orbwalker",
+"ORBWALKERMODE":"ORBWALKER MODE",
+"SDK":"SDK" 
+}
