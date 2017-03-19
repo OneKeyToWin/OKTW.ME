@@ -1,0 +1,20 @@
+{
+"authOutDatedVersion":"OKTW2 Anmeldung erfolgreich, NEUE VERSION VERFÜGBAR, du kannst es nach dem Spiel aktualisieren",
+"authSuccessful":"OKTW2 Anmeldung erfolgreich",
+"authError":"OKTW2 Anmeldung fehlgeschlagen, prüfe den Chat",
+"enable":"Aktiviert",
+"config":"Einstellung",
+"harass":"Harass",
+"disable":"Deaktiviert",
+"Laneclear":"Lane Clear",
+"Jungleclear":"Jungle Clear",
+"utilityAndChampion":"Utility und Champion",
+"onlyChampion":"Nur Champion",
+"onlyUtility":"Nur Utility",
+"AIOMODE":"AIO MODE",
+"PRESSF5TORELOADMODE":"DRÜCKE F5 ZUM LADEN",
+"OKTWorbwalker":"OKTW orbwalker",
+"ORBWALKERMODE":"ORBWALKER MODE",
+"SDK":"SDK"
+
+}
