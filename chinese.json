@@ -1,0 +1,20 @@
+{
+"authOutDatedVersion":"OKTW2 Auth successful, NEW VERSION AVAILABLE, you can update after game",
+"authSuccessful":"OKTW2 認證",
+"authError":"OKTW2 認證錯誤，檢查遊戲聊天室窗",
+"enable":"繁體中文",
+"config":"配置",
+"harass":"騷擾",
+"disable":"禁用",
+"Laneclear":"清線",
+"Jungleclear":"清野",
+"utilityAndChampion":"功能腳本和英雄腳本",
+"onlyChampion":"獨有英雄腳本",
+"onlyUtility":"獨有功能腳本",
+"AIOMODE":"合集模式",
+"PRESSF5TORELOADMODE":"設定過後，請按下F5重新讀取",
+"OKTWorbwalker":"OKTW 走砍",
+"ORBWALKERMODE":"走砍模式",
+"SDK":"SDK"
+
+}
