@@ -40,7 +40,7 @@
 "Max combo stack R": "最大 連招 疊 R數",
 "Max harass stack R": "最大 騷擾 疊 R數",
 "R if enemy immobile": "R 如果 敵人被控CC 狀態下",
-"R if enemy slowed": "R 如果 敵人 被緩訴狀態下",
+"R if enemy slowed": "R 如果 敵人 被緩速狀態下",
 "R if can hit two targets": "R 最少命中敵人數 >= 2",
 "R only out range AA": "R 在 超出範圍 AA",
 "Harass Q only if E ready": "騷擾 Q 如果 E CD是準備好的",
