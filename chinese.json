@@ -64,5 +64,11 @@
 "Disable AA if can use E": "禁止 AA 如果 使用 E",
 "OnPossibleToInterrupt": "中斷目標使用E",
 "Auto push": "自動 E 拉",
-"R ks": "R 擊殺"
+"R ks": "R 擊殺",
+"Auto R": "自動 R",
+"R KS combo R + W + AA": "連招 使用 R + W +AA 擊殺",
+"Auto R aoe": "多數敵人 自動 R",
+"Anti melee R": "反近戰 R",
+"E on Baron": "使用 E 探測巴龍區",
+"E on Dragon": "使用 E 探測飛龍區"
 }
