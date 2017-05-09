@@ -1,6 +1,6 @@
 ﻿namespace OKTW2
 {
-    public enum Language
+    public enum translation
     {
         English,
         Chinese,
@@ -13,15 +13,12 @@
         public static string authOutDatedVersion = "OKTW2 Auth successful; NEW VERSION AVAILABLE; you can update after game";
         public static string authSuccessful = "OKTW2 Auth";
         public static string authError = "OKTW2 Auth error; check chat";
-
         public static string enable = "Enable";
         public static string config = "Config";
         public static string harass = "Harass";
         public static string disable = "Disable";
-
         public static string Laneclear = "Lane clear";
         public static string Jungleclear = "Jungle clear";
-
         public static string utilityAndChampion = "Utility and champion";
         public static string onlyChampion = "Only champion";
         public static string onlyUtility = "Only utility";
@@ -30,9 +27,21 @@
         public static string OKTWorbwalker = "OKTW orbwalker";
         public static string ORBWALKERMODE = "ORBWALKER MODE";
 
-        public static void SetLang(Language LangSet)
+        public static string spellsDrawAndFarm = "Spells DRAW and FARM";
+        public static string drawSpellRange = "Draw spell range";
+        public static string drawOnlyReadySpells = "Draw only ready spells";
+        public static string farmToggleMode = "Farm toggle mode";
+        public static string scrollDown = "Scroll down";
+        public static string scrollPress = "Scroll press";
+        public static string keyToggle = "Key toggle";
+        public static string spellsFarm = "Spells farm";
+        public static string importantBuffTimer = "Important buff timer";
+        public static string manaPercent = " mana %";
+        public static string utilityAndDraws = "Utiliy & draws";
+
+        public static void SetLang(translation LangSet)
         {
-            if (LangSet == Language.Chinese)
+            if (LangSet == translation.Chinese)
             {
                 authOutDatedVersion = "OKTW2 驗證成功; 發現新版本; 你可以在遊戲結束後更新";
                 authSuccessful = "OKTW2 認證";
@@ -52,7 +61,7 @@
                 ORBWALKERMODE = "走砍模式";
 
             }
-            else if (LangSet == Language.Polish)
+            else if (LangSet == translation.Polish)
             {
                 authOutDatedVersion = "OKTW2 autoryzacja pomyslna, NOWA WERSJA DOSTEPNA, zaktualizuj po grze";
                 authSuccessful = "OKTW2 autoryzacja pomyslna";
@@ -72,7 +81,7 @@
                 ORBWALKERMODE = "ORBWALKER MODE";
 
             }
-            else if (LangSet == Language.Russian)
+            else if (LangSet == translation.Russian)
             {
                 authOutDatedVersion = "OKTW2 Успешная авторизация, ДОСТУПНА НОВАЯ ВЕРСИЯ, обновите после игры";
                 authSuccessful = "OKTW2 Успешная авторизация";
