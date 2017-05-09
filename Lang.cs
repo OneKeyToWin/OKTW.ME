@@ -269,26 +269,26 @@
 				public static string jungleTracker = "Jungle tracker";
 				//OKTW AIO 2
 				public static string oktwAio2 = "OKTW AIO 2";
-				public static string advanced = "Advanced";
-				public static string orbwalker = "Orbwalker";
-				public static string disableAutoAttacksInComboAfterLevel = "Disable auto attacks in combo after level(0 = always aa)";
-				public static string supportMoade = "Support mode";
-				public static string harrasInLaneClearMode = "Harras in lane clear mode";
-				public static string mana = "Mana";
-				public static string disableManaManagerInCombo = "Disable mana manager in combo";
-				public static string harrasManaPercent = "Harras mana % (-1 is auto)";
-				public static string masteries = "Masteries";
-				public static string doubleEdgedSword = "Double-Edged Sword 3%";
-				public static string merciless = "Mercilles 3%";
-				public static string onStartDraws = "On start draws";
-				public static string oktwLogoOnStart = "Oktw logo on start";
-				public static string supportedChampionsInfo = "Supported champions info";
-				public static string other = "Other (Please disable if game crashes)";
-				public static string onCreate1 = "OnCreate1 - Advanced damage prediciton";
-				public static string onCreate2 = "OnCreate2 - Advanced minimap detection";
-				public static string onCreate3 = "OnCreate3 - Minimap exploit";
-				public static string developerOptions = "Developer options";
-				public static string enableConsoleDebug = "Enable console debug";
+				public static string advanced = "進階";
+				public static string orbwalker = "走砍";
+				public static string disableAutoAttacksInComboAfterLevel = "在x等級後關閉連招時普攻(0等於永遠使用普攻)";
+				public static string supportMoade = "Support模式";
+				public static string harrasInLaneClearMode = "清線模式時騷擾";
+				public static string mana = "魔力";
+				public static string disableManaManagerInCombo = "連招時關閉魔力控制器";
+				public static string harrasManaPercent = "騷擾魔力%(-1為自動)";
+				public static string masteries = "天賦";
+				public static string doubleEdgedSword = "雙面刃 3%";
+				public static string merciless = "殘忍 3%";
+				public static string onStartDraws = "遊戲開始時顯示";
+				public static string oktwLogoOnStart = "顯示OKTW標誌";
+				public static string supportedChampionsInfo = "支持英雄資訊";
+				public static string other = "其他 (如果遊戲崩潰請關閉)";
+				public static string onCreate1 = "OnCreate1 - 進階傷害預測";
+				public static string onCreate2 = "OnCreate2 - 進階小地圖偵測";
+				public static string onCreate3 = "OnCreate3 - 小地圖漏洞";
+				public static string developerOptions = "開發者選項";
+				public static string enableConsoleDebug = "啟用除錯視窗";
             }
             else if (LangSet == translation.Polish)
             {
