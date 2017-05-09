@@ -60,6 +60,17 @@
                 OKTWorbwalker = "OKTW 走砍";
                 ORBWALKERMODE = "走砍模式";
 
+                spellsDrawAndFarm = "技能范围以及发育";
+                drawSpellRange = "显示技能范围";
+                drawOnlyReadySpells = "仅显示已经CD好的今年刚";
+                farmToggleMode = "发育模式按键(按住激活)";
+                scrollDown = "鼠标中键滚轮";
+                scrollPress = "鼠标中键按下";
+                keyToggle = "按键(按住激活)";
+                spellsFarm = "技能发育状态";
+                importantBuffTimer = "重要的buff持续时间";
+                manaPercent = " 最低蓝量比 %";
+                utilityAndDraws = "功能 & 显示";
             }
             else if (LangSet == translation.Polish)
             {
