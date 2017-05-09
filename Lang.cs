@@ -3,7 +3,8 @@
     public enum translation
     {
         English,
-        Chinese,
+        SimplifiedChinese,
+        TraditionalChinese,
         Polish,
         Russian
     }
@@ -150,7 +151,7 @@
 
         public static void SetLang(translation LangSet)
         {
-            if (LangSet == translation.Chinese)
+            if (LangSet == translation.TraditionalChinese)
             {
                 authOutDatedVersion = "OKTW2 驗證成功; 發現新版本; 你可以在遊戲結束後更新";
                 authSuccessful = "OKTW2 認證";
@@ -193,11 +194,11 @@
 				public static string disableInComboMode = "連招模式時關閉";
 				public static string enemies = "敵人";
 				//AutoLeveler
-				public static string autoLeveler = "Auto Leveler";
-				public static string autoLevlerMode = "Auto leveler mode";
-				public static string priority = "Priority";
-				public static string meta = "Meta";
-				public static string autoLevelerStart = "Auto leveler start";
+				public static string autoLeveler = "自動升級技能";
+				public static string autoLevlerMode = "自動升級模式";
+				public static string priority = "優先";
+				public static string meta = "主流";
+				public static string autoLevelerStart = "在x等級後啟用自動升級技能";
 				//Activator
 				public static string activator = "Activator";
 				public static string autoWards = "Auto wards";
@@ -245,34 +246,34 @@
 				public static string fear = "Fear";
 				public static string taunt = "Tannt";
 				//UtilityAndDraws
-				public static string minimap = "Minimap";
-				public static string showLastEnemyPosition = "Show last enemy position";
-				public static string showPredictedPositionCircles = "Show predicted position circles";
-				public static string showLastEnemyDirection = "Show last enemy direction";
-				public static string uiAvatars = "UI Avatars";
-				public static string showEnemyAvatars = "Show enemy avatars";
-				public static string bigHdAvatars = "Big HD Avatars";
-				public static string positionX = "Position X";
-				public static string positionY = "Position Y";
-				public static string spellsTracker = "Spells tracker";
-				public static string showSpellsTracker = "Show Spells tracker";
-				public static string showEnemySpells = "Show enemy spells";
-				public static string showSpellsLevel = "Show spells level(No Fps Friendly)";
-				public static string showAlliesSpells = "Show allies spells";
-				public static string showMySpells = "Show my spells";
-				public static string orbitalChampionsRadar = "Orbital champions radar";
-				public static string onlyJungler = "Only jungler";
-				public static string onlyEnemy = "Only enemy";
-				public static string damageIndicators = "Damage indicator";
-				public static string showEnemyWards = "Show enemy wards";
-				public static string showEnemyClicks = "Show enemy clicks";
-				public static string jungleTracker = "Jungle tracker";
+				public static string minimap = "小地圖";
+				public static string showLastEnemyPosition = "顯示敵人最後位置";
+				public static string showPredictedPositionCircles = "顯示預測位置圓圈";
+				public static string showLastEnemyDirection = "顯示敵人最後方向";
+				public static string uiAvatars = "頭像界面";
+				public static string showEnemyAvatars = "顯示敵人頭像";
+				public static string bigHdAvatars = "高清頭像";
+				public static string positionX = "X方位";
+				public static string positionY = "Y方位";
+				public static string spellsTracker = "技能追蹤器";
+				public static string showSpellsTracker = "顯示技能追蹤器";
+				public static string showEnemySpells = "顯示敵方技能";
+				public static string showSpellsLevel = "顯示技能等級(降低FPS)";
+				public static string showAlliesSpells = "顯示友方技能";
+				public static string showMySpells = "顯示我的技能";
+				public static string orbitalChampionsRadar = "英雄雷達";
+				public static string onlyJungler = "只有打野";
+				public static string onlyEnemy = "只有敵人";
+				public static string damageIndicators = "傷害指示器";
+				public static string showEnemyWards = "顯示敵人偵查守衛";
+				public static string showEnemyClicks = "顯示敵人點擊";
+				public static string jungleTracker = "打野追蹤器";
 				//OKTW AIO 2
 				public static string oktwAio2 = "OKTW AIO 2";
 				public static string advanced = "進階";
 				public static string orbwalker = "走砍";
 				public static string disableAutoAttacksInComboAfterLevel = "在x等級後關閉連招時普攻(0等於永遠使用普攻)";
-				public static string supportMoade = "Support模式";
+				public static string supportMoade = "輔助模式";
 				public static string harrasInLaneClearMode = "清線模式時騷擾";
 				public static string mana = "魔力";
 				public static string disableManaManagerInCombo = "連招時關閉魔力控制器";
