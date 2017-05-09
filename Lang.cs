@@ -187,11 +187,11 @@
 				public static string minimumClickTimeMs = "最低點擊時間 毫秒";
 				public static string drawActionPerSecond = "顯示每秒活動";
 				//BaseUlt
-				public static string baseUlt = "BaseUlt";
-				public static string enableBaseUlt = "Enable BaseUlt";
-				public static string enableBaseUltNotification = "Enable BaseUlt notification";
-				public static string disableInComboMode = "Disable in COMBO mode";
-				public static string enemies = "Enemies";
+				public static string baseUlt = "基地大招";
+				public static string enableBaseUlt = "啟用基地大招";
+				public static string enableBaseUltNotification = "啟用基地大招通知";
+				public static string disableInComboMode = "連招模式時關閉";
+				public static string enemies = "敵人";
 				//AutoLeveler
 				public static string autoLeveler = "Auto Leveler";
 				public static string autoLevlerMode = "Auto leveler mode";
