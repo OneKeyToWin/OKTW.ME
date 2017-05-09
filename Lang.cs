@@ -181,11 +181,11 @@
                 manaPercent = " 最低魔力 %";
                 utilityAndDraws = "功能腳本及顯示";
 				//Humanizer
-				public static string sbwV2Humanizer = "SBW V2 humanizer";
-				public static string enableHumanizer = "Enable humanizer";
-				public static string blockActionOutScreen = "Bloock auction out screen";
-				public static string minimumClickTimeMs = "Minimum Click Time ms";
-				public static string drawActionPerSecond = "Draw action per second";
+				public static string sbwV2Humanizer = "SBW 人性化 V2";
+				public static string enableHumanizer = "啟用人性化點擊";
+				public static string blockActionOutScreen = "封鎖畫面外點擊";
+				public static string minimumClickTimeMs = "最低點擊時間 毫秒";
+				public static string drawActionPerSecond = "顯示每秒活動";
 				//BaseUlt
 				public static string baseUlt = "BaseUlt";
 				public static string enableBaseUlt = "Enable BaseUlt";
