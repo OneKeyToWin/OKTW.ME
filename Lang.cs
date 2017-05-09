@@ -151,7 +151,148 @@
 
         public static void SetLang(translation LangSet)
         {
-            if (LangSet == translation.TraditionalChinese)
+			if (LangSet == translation.SimplifiedChinese)
+            {
+                authOutDatedVersion = "OKTW2 验证成功; 检查到有新版本";
+                authSuccessful = "OKTW2 验证";
+                authError = "OKTW2 验证失败; 请检查聊天框";
+                enable = "启动";
+                config = "设置";
+                harass = "骚扰";
+                disable = "禁止";
+                Laneclear = "清线";
+                Jungleclear = "清野";
+                utilityAndChampion = "功能&英雄";
+                onlyChampion = "仅 英雄";
+                onlyUtility = "仅 功能";
+                AIOMODE = "AIO 模式";
+                PRESSF5TORELOADMODE = "请按F5生效改动";
+                OKTWorbwalker = "OKTW 走砍";
+                ORBWALKERMODE = "走砍模式";
+
+                spellsDrawAndFarm = "技能范围&清线状态";
+                drawSpellRange = "显示技能范围";
+                drawOnlyReadySpells = "仅显示可以使用的技能";
+                farmToggleMode = "启动清线模式按键";
+                scrollDown = "鼠标中键滚轮";
+                scrollPress = "鼠标中键按下";
+                keyToggle = "按键激活";
+                spellsFarm = "技能清线";
+                importantBuffTimer = "重要的buff持续时间";
+                manaPercent = "最低蓝量比 %";
+                utilityAndDraws = "功能 & 显示";
+
+                //Humanizer
+                sbwV2Humanizer = "SBW V2 人性化";
+                enableHumanizer = "启动 人性化";
+                blockActionOutScreen = "禁止使用技能/移动/攻击 (当释放位置在游戏屏幕外)";
+                minimumClickTimeMs = "最小点击延迟(ms)";
+                drawActionPerSecond = "显示每一秒的动作";
+                //BaseUlt
+                baseUlt = "基地大招";
+                enableBaseUlt = "启动 基地大招";
+                enableBaseUltNotification = "启动基地大招通知";
+                disableInComboMode = "禁止在连招中使用";
+                enemies = "敌人";
+                //AutoLeveler
+                autoLeveler = "自动加点";
+                autoLevlerMode = "自动加点模式";
+                priority = "优先";
+                meta = "推荐";
+                autoLevelerStart = "开始";
+                //Activator
+                activator = "活化剂";
+                autoWards = "自动眼位";
+                onlyComboMode = "仅连招启动";
+                autoPlaceWard = "自动放眼";
+                autoPlaceBlueTrinket = "自动放灯泡";
+                autoVisionWardOracleLens = "自动真眼/扫描";
+                summonersHeal = "召唤师技能 - 治疗";
+                heal = "治疗";
+                allyHeal = "治疗友军";
+                itemsOffensive = "进攻物品";
+                botrk = "破败";
+                botrkLifeSaver = "使用破败保命";
+                ks = "击杀";
+                combo = "连招";
+                botrkCombo = "连招中使用";
+                cutlass = "弯刀";
+                hextech = "科技枪";
+                protobelt = "推推棒(海克斯腰带)";
+                glp800 = "海克斯GLP800";
+                yommus = "幽梦";
+                yommusTwitchAshe = "老鼠 R, 寒冰 Q";
+                others = "其他";
+                hydra = "九头蛇";
+                hydraTitanic = "巨人九头蛇";
+                frostQueen = "冰霜女王的指令";
+                itemsDefensives = "防御物品";
+                consumable = "Consumable";
+                faceOfTheMountain = "山岳之容";
+                solari = "鸟盾";
+                randuin = "蓝盾";
+                seraph = "炽天使之拥";
+                zhonya = "中亚";
+                zhonyaSpells = "使用中亚阻挡技能";
+                cleansers = "净化";
+                cleanseEnable = "启动自动净化";
+                useOnlyUnderPercentHP = "当自己的生命百分比 <=  x%";
+                delayInMs = "延迟(ms)";
+                buffType = "Buff类型";
+                stun = "眩晕";
+                charm = "魅惑";
+                suppression = "压制";
+                blind = "致盲";
+                snare = "陷阱";
+                fear = "恐惧";
+                taunt = "嘲讽";
+                //UtilityAndDraws
+                minimap = "Minimap";
+                showLastEnemyPosition = "显示敌人最后出现的位置";
+                showPredictedPositionCircles = "显示敌人预判位置的线圈";
+                showLastEnemyDirection = "显示敌人消失前最后的移动方向";
+                uiAvatars = "UI 头像";
+                showEnemyAvatars = "显示敌人头像";
+                bigHdAvatars = "大+高清的头像";
+                positionX = "横坐标";
+                positionY = "纵坐标";
+                spellsTracker = "技能监控";
+                showSpellsTracker = "显示技能监控";
+                showEnemySpells = "显示敌人的技能";
+                showSpellsLevel = "显示技能等级(吃FPS)";
+                showAlliesSpells = "显示友军的技能";
+                showMySpells = "显示自己的技能";
+                orbitalChampionsRadar = "雷达显示(敌人位置)";
+                onlyJungler = "仅打野";
+                onlyEnemy = "仅敌人";
+                damageIndicators = "伤害指示器";
+                showEnemyWards = "显示敌人眼位位置";
+                showEnemyClicks = "显示敌人点击位置";
+                jungleTracker = "打野监控";
+                //OKTW AIO 2
+                oktwAio2 = "OKTW AIO 2";
+                advanced = "高级设置";
+                orbwalker = "走砍";
+                disableAutoAttacksInComboAfterLevel = "当自己等级 >= x, 连招自动禁止普攻(0 = 不会禁止普攻)";
+                supportMoade = "辅助模式";
+                harrasInLaneClearMode = "在清线模式中使用技能骚扰";
+                mana = "蓝量";
+                disableManaManagerInCombo = "连招中关闭蓝量控制";
+                harrasManaPercent = "骚扰蓝量比 % (-1 为自动控制)";
+                masteries = "天赋页";
+                doubleEdgedSword = "双刃剑满级";
+                merciless = "Mercilles 3%";
+                onStartDraws = "开局时显示";
+                oktwLogoOnStart = "加载时显示Oktw Logo";
+                supportedChampionsInfo = "支持英雄列表";
+                other = "其他 (假如你游戏崩溃的话请禁止这些选项)";
+                onCreate1 = "1 - 启动伤害估算";
+                onCreate2 = "2 - 启动小地图监测";
+                onCreate3 = "3 - 启动小地图开发";
+                developerOptions = "开发者选项";
+                enableConsoleDebug = "启动控制台调试";
+            }
+            else if (LangSet == translation.TraditionalChinese)
             {
                 authOutDatedVersion = "OKTW2 驗證成功; 發現新版本; 你可以在遊戲結束後更新";
                 authSuccessful = "OKTW2 認證";
