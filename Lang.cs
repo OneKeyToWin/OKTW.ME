@@ -1,4 +1,4 @@
-﻿namespace OKTW2
+namespace OKTW2
 {
     public enum translation
     {
@@ -6,7 +6,8 @@
         SimplifiedChinese,
         TraditionalChinese,
         Polish,
-        Russian
+        Russian,
+        Korean
     }
 
     class Lang
@@ -156,7 +157,153 @@
 
         public static void SetLang(translation LangSet)
         {
-            if (LangSet == translation.SimplifiedChinese)
+            if (LangSet == translation.Korean)
+            {
+                authOutDatedVersion = "OKTW2 인증성공; 새로운 버전이 존재합니다; 게임울 마친후 업데이트 하실 수 있습니다";
+                authSuccessful = "OKTW2 인증";
+                authError = "OKTW2 인증 에러; 채팅 확인";
+                enable = "활성화";
+                config = "설정";
+                harass = "견제";
+                disable = "비활성화";
+                Laneclear = "라인 클리어";
+                Jungleclear = "정글 클리어";
+                utilityAndChampion = "유틸리티와 챔피언";
+                onlyChampion = "챔피언만";
+                onlyUtility = "유틸리티만";
+                AIOMODE = "올인원 모드";
+                PRESSF5TORELOADMODE = "F5키를 눌러 모드를 리로드하십시오";
+                OKTWorbwalker = "OKTW orbwalker";
+                ORBWALKERMODE = "ORBWALKER 모드";
+
+                spellsDrawAndFarm = "스펠 표시와 파밍";
+                drawSpellRange = "스펠 범위 표시";
+                drawOnlyReadySpells = "준비된 스펠만 표시";
+                farmToggleMode = "파밍 토글 모드";
+                scrollDown = "스크롤 다운";
+                scrollPress = "스크롤 누르기";
+                keyToggle = "토글키";
+                spellsFarm = "스펠 파밍";
+                importantBuffTimer = "중요 버프 타이머";
+                manaPercent = " 마나 %";
+                utilityAndDraws = "유틸리티와 그리기";
+
+                //Humanizer
+                sbwV2Humanizer = "SBW V2 휴머나이저";
+                enableHumanizer = "휴머나이저 활성화";
+                blockActionOutScreen = "블록된 액션을 스크린에 표시";
+                minimumClickTimeMs = "최소 클릭시간 ms";
+                drawActionPerSecond = "초당 액션 표시";
+                //BaseUlt
+                baseUlt = "BaseUlt";
+                enableBaseUlt = "BaseUlt 활성화";
+                enableBaseUltNotification = "BaseUlt 알림 활성화";
+                disableInComboMode = "콤보모드에서 비활성화";
+                enemies = "적군";
+                //AutoLeveler
+                autoLeveler = "자동 레벨업";
+                autoLevlerMode = "자동 레벨업 모드";
+                priority = "우선순위";
+                meta = "메타";
+                autoLevelerStart = "자동 레벌업 스타트";
+                
+                //WARDS
+                activator = "Activator";
+                autoWards = "자동 와드";
+                onlyComboMode = "콤보 모드에서만";
+                autoPlaceWard = "자동으로 와드놓기";
+                autoPlaceBlueTrinket = "자동으로 파랑와드 놓기";
+                autoVisionWardOracleLens = "자동 핑크와드, 오라클 렌즈";
+
+                //Activator
+
+                summonersHeal = "소환사주문 - 힐";
+                heal = "힐";
+                allyHeal = "아군 힐";
+
+                ks = "킬스틸";
+                combo = "콤보";
+
+                itemsOffensive = "공격형 아이템";
+                botrk = "몰왕검";
+                botrkLifeSaver = "죽기직전 흡혈사용";
+                cutlass = "해적검";
+                hextech = "총검";
+                protobelt = "초기형 벨트";
+                glp800 = "GLP800";
+                yommus = "요우무";
+                others = "기타";
+                hydra = "히드라";
+                hydraTitanic = "거드라";
+                frostQueen = "서리여왕";
+                itemsDefensives = "방어형 아이템";
+                consumable = "소모성 아이템";
+                faceOfTheMountain = "산악방벽";
+                solari = "솔라리";
+                randuin = "란두인";
+                seraph = "대천사";
+                zhonya = "존야";
+                zhonyaSpells = "존야 스펠목록";
+                cleansers = "클리너";
+                cleanseEnable = "정화";
+                useOnlyUnderPercentHP = "HP % 이하에서만 사용";
+                delayInMs = "딜레이 ms";
+                buffType = "버프타입";
+                stun = "스턴";
+                charm = "매혹";
+                suppression = "제압";
+                blind = "실명";
+                snare = "속박";
+                fear = "공포";
+                taunt = "도발";
+                //UtilityAndDraws
+                minimap = "미니맵";
+                showLastEnemyPosition = "마지막에 보인 적군위치 표시";
+                showPredictedPositionCircles = "원형 위치 예측 표시";
+                showLastEnemyDirection = "적군의 마지막 이동방향 표시";
+                uiAvatars = "아바타 UI";
+                showEnemyAvatars = "적군 아바타 표시";
+                bigHdAvatars = "HD크기 아바타";
+                positionX = "X 위치";
+                positionY = "Y 위치";
+                spellsTracker = "스펠 트래커";
+                showSpellsTracker = "스펠 트래커 표시";
+                showEnemySpells = "적군 스펠 표시";
+                showSpellsLevel = "스펠 레벨표시(프레임 드랍발생)";
+                showAlliesSpells = "아군 스펠 표시";
+                showMySpells = "자신의 스펠 표시";
+                orbitalChampionsRadar = "챔피언 궤도 레이더";
+                onlyJungler = "정글만";
+                onlyEnemy = "적군만";
+                damageIndicators = "입힐 피해 표시";
+                showEnemyWards = "적군 와드 표시";
+                showEnemyClicks = "적군 클릭 표시";
+                jungleTracker = "정글 트래커";
+                //OKTW AIO 2
+                oktwAio2 = "OKTW AIO 2";
+                advanced = "고급설정";
+                orbwalker = "Orbwalker";
+                disableAutoAttacksInComboAfterLevel = "레벨 이후 콤보시 자동공격 비활성화(0 = 항상 활성화)";
+                supportMoade = "서포트 모드";
+                harrasInLaneClearMode = "라인 클리어 모드에서 견제";
+                mana = "마나";
+                disableManaManagerInCombo = "콤보시 마나 관리 비활성화";
+                harrasManaPercent = "견제 마나 % (-1 일시 자동)";
+                masteries = "특성";
+                doubleEdgedSword = "양날의 검 3%";
+                merciless = "무자비 3%";
+                onStartDraws = "On start draws";
+                oktwLogoOnStart = "시작시 Oktw 로고 출력";
+                supportedChampionsInfo = "지원챔프 정보 출력";
+                other = "기타옵션 (게임이 팅길경우 비활성화 하십시오)";
+                onCreate1 = "OnCreate1 - 향상된 데미지 예측";
+                onCreate2 = "OnCreate2 - 향상된 미니맵 감지";
+                onCreate3 = "OnCreate3 - 맵핵 exploit(일부동작)";
+                developerOptions = "개발자 옵션";
+                enableConsoleDebug = "콘솔 디버깅 활성화";
+
+        	}
+            else if (LangSet == translation.SimplifiedChinese)
             {
                 authOutDatedVersion = "OKTW2 验证成功; 检查到有新版本";
                 authSuccessful = "OKTW2 验证";
