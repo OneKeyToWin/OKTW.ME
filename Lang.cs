@@ -3,6 +3,7 @@
     public enum translation
     {
         English,
+        French,
         SimplifiedChinese,
         TraditionalChinese,
         Polish,
@@ -156,6 +157,152 @@
 
         public static void SetLang(translation LangSet)
         {
+            if (LangSet == translation.French)
+            {
+             authOutDatedVersion = "OKTW2 Auth réussie; NOUVELLE VERSION DISPONIBLE; Vous pouvez mettre à jour après la partie";
+			 authSuccessful = "OKTW2 Auth";
+			 authError = "OKTW2 Erreur d'Authentification, voir le chat";
+			 enable = "Activé";
+			 config = "Configuration";
+			 harass = "Harass";
+			 disable = "Desactivé";
+			 Laneclear = "Lane Clear";
+			 Jungleclear = "Jungle Clear";
+			 utilityAndChampion = "Utilitaire et Champion";
+			 onlyChampion = "Champion seulement";
+			 onlyUtility = "Utilitaire seulement";
+			 AIOMODE = "MODE AIO";
+			 PRESSF5TORELOADMODE = "APPUYER SUR F5 POUR RECHARGER";
+			 OKTWorbwalker = "Orbwalker OKTW";
+			 ORBWALKERMODE = "MODE ORBWALKER";
+
+			 spellsDrawAndFarm = "Spells DRAW and FARM";
+			 drawSpellRange = "Afficher la portée des sorts";
+			 drawOnlyReadySpells = "Afficher seulement les sorts dispo.";
+			 farmToggleMode = "Mode Farm Toggle";
+			 scrollDown = "Descendre";
+			 scrollPress = "Scroll press";
+			 keyToggle = "Touche toggle";
+			 spellsFarm = "Sort pour farm";
+			 importantBuffTimer = "Timer des buffs importants";
+			 manaPercent = " mana %";
+			 utilityAndDraws = "Utilitaire & Affichages";
+
+			//Humanizer
+			 sbwV2Humanizer = "SBW V2 Humanizer";
+			 enableHumanizer = "Activer Humanizer";
+			 blockActionOutScreen = "Bloquer les actions en dehors de l'écran";
+			 minimumClickTimeMs = "Temps minimum de clique (en ms)";
+			 drawActionPerSecond = "Action afficher par action";
+			//BaseUlt
+			 baseUlt = "BaseUlt";
+			 enableBaseUlt = "Activer BaseUlt";
+			 enableBaseUltNotification = "Activer la notification BaseUlt ";
+			 disableInComboMode = "Desactiver en mode COMBO";
+			 enemies = "Ennemis";
+			//AutoLeveler
+			 autoLeveler = "Auto Leveler";
+			 autoLevlerMode = "Mode Auto Leveler";
+			 priority = "Priorité";
+			 meta = "Meta";
+			 autoLevelerStart = "Départ du Auto Leveler";
+			
+			//WARDS
+			 activator = "Activator";
+			 autoWards = "Wards Auto";
+			 onlyComboMode = "Mode Combo Seulement";
+			 autoPlaceWard = "Placer les wards automatiquement";
+			 autoPlaceBlueTrinket = "Placer les wards bleues auto.";
+			 autoVisionWardOracleLens = "Auto VisionWard, OracleLens";
+
+			//Activator
+
+			 summonersHeal = "Summoners - Heal";
+			 heal = "Heal";
+			 allyHeal = "Heal les Alliés";
+
+			 ks = "KS";
+			 combo = "Combo";
+
+			 itemsOffensive = "Items - Offensifs";
+			 botrk = "BOTRK";
+			 botrkLifeSaver = "Botrk LifeSaver";
+			 cutlass = "Vicié";
+			 hextech = "Hextech";
+			 protobelt = "Protobelt";
+			 glp800 = "GLP800";
+			 yommus = "Yommu";
+			 others = "Autres";
+			 hydra = "Hydre";
+			 hydraTitanic = "Hydra Titanesque";
+			 frostQueen = "Prise de la reine";
+			 itemsDefensives = "Items - Defensifs";
+			 consumable = "Consommables";
+			 faceOfTheMountain = "Face de la montagne";
+			 solari = "Solaris";
+			 randuin = "Randuin";
+			 seraph = "Seraphin";
+			 zhonya = "Zhonya";
+			 zhonyaSpells = "Sorts Zhonya";
+			 cleansers = "Purgeurs";
+			 cleanseEnable = "Purge";
+			 useOnlyUnderPercentHP = "Utilisé en dessous de % HP";
+			 delayInMs = "Delai en ms";
+			 buffType = "Type de Buff";
+			 stun = "Stun";
+			 charm = "Charmes";
+			 suppression = "Suppressions";
+			 blind = "Aveuglé";
+			 snare = "Snare";
+			 fear = "Fear";
+			 taunt = "Taunt";
+			//UtilityAndDraws
+			 minimap = "Minimap";
+			 showLastEnemyPosition = "Afficher dernière pos. ennemis";
+			 showPredictedPositionCircles = "Afficher cercle de prédiction";
+			 showLastEnemyDirection = "Afficher dernière direction ennemis";
+			 uiAvatars = "UI Avatars";
+			 showEnemyAvatars = "Afficher avatars ennemis";
+			 bigHdAvatars = "Gros HD Avatars";
+			 positionX = "Position X";
+			 positionY = "Position Y";
+			 spellsTracker = "Tracker de sorts";
+			 showSpellsTracker = "Afficher Spells tracker";
+			 showEnemySpells = "Afficher sorts ennemis";
+			 showSpellsLevel = "Afficher niveau des sorts (No Fps Friendly)";
+			 showAlliesSpells = "Voir sorts alliés";
+			 showMySpells = "Afficher mes sorts";
+			 orbitalChampionsRadar = "Champion Radar Orbital";
+			 onlyJungler = "Seulement le jungler";
+			 onlyEnemy = "Seulement les ennemis";
+			 damageIndicators = "Indicateurs de dégâts";
+			 showEnemyWards = "Voir les wards ennemis";
+			 showEnemyClicks = "Voir les clics ennemis";
+			 jungleTracker = "Tracker Jungle";
+			//OKTW AIO 2
+			 oktwAio2 = "OKTW AIO 2";
+			 advanced = "Avancé";
+			 orbwalker = "Orbwalker";
+			 disableAutoAttacksInComboAfterLevel = "Désactiver les AA après le level (0 = Toujours activé)";
+			 supportMoade = "Mode Support";
+			 harrasInLaneClearMode = "Harras en mode Lane Clear";
+			 mana = "Mana";
+			 disableManaManagerInCombo = "Désactiver Mana Manager en combo";
+			 harrasManaPercent = "Harass mana % (-1 = auto)";
+			 masteries = "Maitrises";
+			 doubleEdgedSword = "Epee a double trachant 3%";
+			 merciless = "Impitoyable 3%";
+			 onStartDraws = "Affichage au démarrage";
+			 oktwLogoOnStart = "Logo OTKW au démarrage";
+			 supportedChampionsInfo = "Info Champion Supportés";
+			 other = "Autres (Désactiver si le jeu crash)";
+			 onCreate1 = "OnCreate1 - Advanced damage prediciton";
+			 onCreate2 = "OnCreate2 - Advanced minimap detection";
+			 onCreate3 = "OnCreate3 - Minimap exploit";
+			 developerOptions = "Options Développeurs";
+			 enableConsoleDebug = "Activé la console dev.";
+            }
+             
             if (LangSet == translation.SimplifiedChinese)
             {
                 authOutDatedVersion = "OKTW2 验证成功; 检查到有新版本";
