@@ -12,21 +12,21 @@
 
     class Lang
     {
-        public static string authOutDatedVersion = "OKTW2 Auth successful; NEW VERSION AVAILABLE; you can update after game";
+        public static string authOutDatedVersion = "OKTW2 Auth Successful; NEW VERSION AVAILABLE; you can update after game";
         public static string authSuccessful = "OKTW2 Auth";
-        public static string authError = "OKTW2 Auth error  check chat";
+        public static string authError = "OKTW2 Auth error; Check chat";
         public static string enable = "Enable";
         public static string config = "Config";
         public static string harass = "Harass";
         public static string disable = "Disable";
-        public static string Laneclear = "Lane clear";
-        public static string Jungleclear = "Jungle clear";
-        public static string utilityAndChampion = "Utility and champion";
-        public static string onlyChampion = "Only champion";
-        public static string onlyUtility = "Only utility";
+        public static string Laneclear = "Lane Clear";
+        public static string Jungleclear = "Jungle Clear";
+        public static string utilityAndChampion = "Utility and Champion";
+        public static string onlyChampion = "Only Champion";
+        public static string onlyUtility = "Only Utility";
         public static string AIOMODE = "AIO MODE";
         public static string PRESSF5TORELOADMODE = "PRESS F5 TO RELOAD MODE";
-        public static string OKTWorbwalker = "OKTW orbwalker";
+        public static string OKTWorbwalker = "OKTW Orbwalker";
         public static string ORBWALKERMODE = "ORBWALKER MODE";
 
         public static string spellsDrawAndFarm = "Spells DRAW and FARM";
@@ -39,12 +39,12 @@
         public static string spellsFarm = "Spells farm";
         public static string importantBuffTimer = "Important buff timer";
         public static string manaPercent = " mana %";
-        public static string utilityAndDraws = "Utiliy & draws";
+        public static string utilityAndDraws = "Utiliy & Draws";
 
         //Humanizer
-        public static string sbwV2Humanizer = "SBW V2 humanizer";
-        public static string enableHumanizer = "Enable humanizer";
-        public static string blockActionOutScreen = "Bloock auction out screen";
+        public static string sbwV2Humanizer = "SBW V2 Humanizer";
+        public static string enableHumanizer = "Enable Humanizer";
+        public static string blockActionOutScreen = "Block action out screen";
         public static string minimumClickTimeMs = "Minimum Click Time ms";
         public static string drawActionPerSecond = "Draw action per second";
         //BaseUlt
@@ -55,10 +55,10 @@
         public static string enemies = "Enemies";
         //AutoLeveler
         public static string autoLeveler = "Auto Leveler";
-        public static string autoLevlerMode = "Auto leveler mode";
+        public static string autoLevlerMode = "Auto Leveler mode";
         public static string priority = "Priority";
         public static string meta = "Meta";
-        public static string autoLevelerStart = "Auto leveler start";
+        public static string autoLevelerStart = "Auto Leveler start";
         
         //WARDS
         public static string activator = "Activator";
@@ -77,9 +77,9 @@
         public static string ks = "KS";
         public static string combo = "Combo";
 
-        public static string itemsOffensive = "Items Offensive";
-        public static string botrk = "Botrk";
-        public static string botrkLifeSaver = "Botrk LifeSaver";
+        public static string itemsOffensive = "Items - Offensives";
+        public static string botrk = "BOTRK";
+        public static string botrkLifeSaver = "BOTRK LifeSaver";
         public static string cutlass = "Cutlass";
         public static string hextech = "Hextech";
         public static string protobelt = "Protobelt";
@@ -87,10 +87,10 @@
         public static string yommus = "Yommus";
         public static string others = "Others";
         public static string hydra = "Hydra";
-        public static string hydraTitanic = "Hydra titanic";
+        public static string hydraTitanic = "Titanic Hydra";
         public static string frostQueen = "Frost Queen";
         public static string itemsDefensives = "Items - Defensives";
-        public static string consumable = "Consumable";
+        public static string consumable = "Consumables";
         public static string faceOfTheMountain = "FaceOfTheMountain";
         public static string solari = "Solari";
         public static string randuin = "Randuin";
@@ -108,7 +108,7 @@
         public static string blind = "Blind";
         public static string snare = "Snare";
         public static string fear = "Fear";
-        public static string taunt = "Tannt";
+        public static string taunt = "Taunt";
         //UtilityAndDraws
         public static string minimap = "Minimap";
         public static string showLastEnemyPosition = "Show last enemy position";
@@ -122,7 +122,7 @@
         public static string spellsTracker = "Spells tracker";
         public static string showSpellsTracker = "Show Spells tracker";
         public static string showEnemySpells = "Show enemy spells";
-        public static string showSpellsLevel = "Show spells level(No Fps Friendly)";
+        public static string showSpellsLevel = "Show spells level (No Fps Friendly)";
         public static string showAlliesSpells = "Show allies spells";
         public static string showMySpells = "Show my spells";
         public static string orbitalChampionsRadar = "Orbital champions radar";
@@ -138,15 +138,15 @@
         public static string orbwalker = "Orbwalker";
         public static string disableAutoAttacksInComboAfterLevel = "Disable auto attacks in combo after level(0 = always aa)";
         public static string supportMoade = "Support mode";
-        public static string harrasInLaneClearMode = "Harras in lane clear mode";
+        public static string harrasInLaneClearMode = "Harass in lane clear mode";
         public static string mana = "Mana";
         public static string disableManaManagerInCombo = "Disable mana manager in combo";
-        public static string harrasManaPercent = "Harras mana % (-1 is auto)";
+        public static string harrasManaPercent = "Harass mana % (-1 is auto)";
         public static string masteries = "Masteries";
         public static string doubleEdgedSword = "Double-Edged Sword 3%";
-        public static string merciless = "Mercilles 3%";
+        public static string merciless = "Merciless 3%";
         public static string onStartDraws = "On start draws";
-        public static string oktwLogoOnStart = "Oktw logo on start";
+        public static string oktwLogoOnStart = "OKTW logo on start";
         public static string supportedChampionsInfo = "Supported champions info";
         public static string other = "Other (Please disable if game crashes)";
         public static string onCreate1 = "OnCreate1 - Advanced damage prediciton";
