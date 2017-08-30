@@ -1,0 +1,170 @@
+[
+  {
+    "Name": "Default",
+    "Collision": "Minion",
+    "BlockSpellsMode": "Always",
+    "BlockAttacksMode": "Always",
+    "ReactionTime": 0,
+    "IgnoreReactionTime": false,
+    "DisableFOWDodging": false,
+    "DontDodgeIfSpellShielded": true,
+    "Humanizer": {
+      "EnableHumanizer": false,
+      "SpellDetectionDelay": 0,
+      "MaximumAngle": 180,
+      "DontDodgeIfAltTabbed": true,
+      "IgnoreSkillshotsOutsideScreen": false,
+      "DontDodgeIfPlayerIsOutsideScreen": true,
+      "DontDodgeIfPlayerIsNotVisible": true,
+      "SpellCasterFOWExit": true,
+      "MinimalVisibilityTime": 250
+    },
+    "OKTWBrain": {
+      "Enabled": false,
+      "HealthSettings": [
+        {
+          "Name": "High",
+          "OnlyDangerous": false,
+          "DisableFOWDodging": true,
+          "IgnoreCircular": false,
+          "BlockSpells": "Always",
+          "BlockAttacks": "OnlyDangerous",
+          "MinimalSpellDangerLevel": "Medium",
+          "ReactionTime": 50
+        },
+        {
+          "Name": "Medium",
+          "OnlyDangerous": true,
+          "DisableFOWDodging": false,
+          "IgnoreCircular": false,
+          "BlockSpells": "Always",
+          "BlockAttacks": "Always",
+          "MinimalSpellDangerLevel": "Low",
+          "ReactionTime": 0
+        },
+        {
+          "Name": "Low",
+          "OnlyDangerous": false,
+          "DisableFOWDodging": false,
+          "IgnoreCircular": false,
+          "BlockSpells": "Always",
+          "BlockAttacks": "Always",
+          "MinimalSpellDangerLevel": "Low",
+          "ReactionTime": -100
+        }
+      ]
+    }
+  },
+  {
+    "Name": "Obvious",
+    "Collision": "Disable",
+    "BlockSpellsMode": "Always",
+    "BlockAttacksMode": "Always",
+    "ReactionTime": 0,
+    "IgnoreReactionTime": true,
+    "DisableFOWDodging": false,
+    "DontDodgeIfSpellShielded": false,
+    "Humanizer": {
+      "EnableHumanizer": false,
+      "SpellDetectionDelay": 0,
+      "MaximumAngle": 180,
+      "DontDodgeIfAltTabbed": true,
+      "IgnoreSkillshotsOutsideScreen": false,
+      "DontDodgeIfPlayerIsOutsideScreen": true,
+      "DontDodgeIfPlayerIsNotVisible": true,
+      "SpellCasterFOWExit": true,
+      "MinimalVisibilityTime": 250
+    },
+    "OKTWBrain": {
+      "Enabled": false,
+      "HealthSettings": [
+        {
+          "Name": "High",
+          "OnlyDangerous": false,
+          "DisableFOWDodging": true,
+          "IgnoreCircular": false,
+          "BlockSpells": "Always",
+          "BlockAttacks": "Always",
+          "MinimalSpellDangerLevel": "Low",
+          "ReactionTime": -300
+        },
+        {
+          "Name": "Medium",
+          "OnlyDangerous": false,
+          "DisableFOWDodging": false,
+          "IgnoreCircular": false,
+          "BlockSpells": "Always",
+          "BlockAttacks": "Always",
+          "MinimalSpellDangerLevel": "Low",
+          "ReactionTime": -300
+        },
+        {
+          "Name": "Low",
+          "OnlyDangerous": false,
+          "DisableFOWDodging": false,
+          "IgnoreCircular": false,
+          "BlockSpells": "Always",
+          "BlockAttacks": "Always",
+          "MinimalSpellDangerLevel": "Low",
+          "ReactionTime": -300
+        }
+      ]
+    }
+  },
+  {
+    "Name": "LegitMode",
+    "Collision": "Both",
+    "BlockSpellsMode": "Always",
+    "BlockAttacksMode": "Always",
+    "ReactionTime": 150,
+    "IgnoreReactionTime": false,
+    "DisableFOWDodging": true,
+    "DontDodgeIfSpellShielded": true,
+    "Humanizer": {
+      "EnableHumanizer": true,
+      "SpellDetectionDelay": 250,
+      "MaximumAngle": 90,
+      "DontDodgeIfAltTabbed": true,
+      "IgnoreSkillshotsOutsideScreen": true,
+      "DontDodgeIfPlayerIsOutsideScreen": true,
+      "DontDodgeIfPlayerIsNotVisible": true,
+      "SpellCasterFOWExit": true,
+      "MinimalVisibilityTime": 500
+    },
+    "OKTWBrain": {
+      "Enabled": true,
+      "HealthSettings": [
+        {
+          "Name": "High",
+          "OnlyDangerous": true,
+          "DisableFOWDodging": true,
+          "IgnoreCircular": true,
+          "BlockSpells": "Always",
+          "BlockAttacks": "OnlyDangerous",
+          "MinimalSpellDangerLevel": "Medium",
+          "ReactionTime": 150
+        },
+        {
+          "Name": "Medium",
+          "OnlyDangerous": true,
+          "DisableFOWDodging": false,
+          "IgnoreCircular": true,
+          "BlockSpells": "Always",
+          "BlockAttacks": "OnlyDangerous",
+          "MinimalSpellDangerLevel": "Medium",
+          "ReactionTime": 75
+        },
+        {
+          "Name": "Low",
+          "OnlyDangerous": false,
+          "DisableFOWDodging": false,
+          "IgnoreCircular": false,
+          "BlockSpells": "Always",
+          "BlockAttacks": "Always",
+          "MinimalSpellDangerLevel": "Low",
+          "ReactionTime": -100
+        }
+      ]
+    }
+  }
+]
